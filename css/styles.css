@@ -105,7 +105,7 @@ body {
   text-decoration: none;
   margin-right: 93px;
   padding-top: 24px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
 }
 
 .web-logo {
@@ -120,6 +120,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color-text);
   transition: color 250ms var(--cubic-style);
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline-block;
 }
 
 .hero-title {
@@ -218,7 +222,7 @@ body {
   background-color: var(--accent);
 
   position: absolute;
-  bottom: -1px;
+  bottom: -3px;
   left: 0;
 
   border-radius: 2px;
